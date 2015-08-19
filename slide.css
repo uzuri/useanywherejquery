@@ -1,0 +1,68 @@
+
+
+/* ************************************************************************************
+ * Use anywhere slideshow
+ * ************************************************************************************ */
+.fadein 
+{
+	position:relative;
+	width:100%;
+	height:auto;
+	background-color: black;
+	overflow: hidden;
+}
+.fadein .slideitem 
+{
+	position:absolute;
+	top:0;
+	width: auto;
+	text-align: center;
+}
+.fadein .slideitem img
+{
+	margin: auto;
+	height: auto;
+	width: auto;
+}
+.fadein .slidetitle 
+{
+	position:absolute;
+	left:0;
+	bottom: 0px;
+	width: 100%;
+	background-color: rgba(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+.slidetitle p 
+{
+	margin: 0;
+	padding: 10px;
+}
+
+#slidethumbs 
+{
+	height: 50px;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	z-index: 2;
+}
+#thumbwrapper
+{
+	height: 50px;
+}
+#slidethumbs img 
+{
+	height: 50px;
+	width: auto;
+	opacity: 0.5;
+}
+
+#slidethumbs img:first-child
+{
+	opacity: 1;
+}
