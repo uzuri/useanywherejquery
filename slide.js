@@ -6,6 +6,7 @@ $(document).ready(function($) {
 		
 	prop = 2 / 3; // Fix proportions to simplify
 		
+	// Deal with window resizes
 	function resizedw()
 	{	
 		h = $('.fadein').parent().width() * prop
